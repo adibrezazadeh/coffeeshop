@@ -45,8 +45,8 @@ module.exports = {
         }
       },
       backgroundImage :{
-        "home-mobile":"url(../images/headerBgMobile.webp)",
-        "home-desktop":"url(../images/headerBgDesktop.webp)",
+        "home-mobile":"url(../public/images/headerBgMobile.webp)",
+        "home-desktop":"url(../public/images/headerBgDesktop.webp)",
       }
     },
     screens: {
