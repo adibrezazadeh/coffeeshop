@@ -924,6 +924,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .-mt-1 {
   margin-top: -0.25rem;
 }
@@ -972,8 +977,8 @@ video {
   margin-left: 0.375rem;
 }
 
-.ml-\[18px\] {
-  margin-left: 18px;
+.ml-\[12px\] {
+  margin-left: 12px;
 }
 
 .mt-1 {
@@ -1006,14 +1011,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-1\.5 {
-  margin-bottom: 0.375rem;
-}
-
-.ml-\[12px\] {
-  margin-left: 12px;
 }
 
 .line-clamp-2 {
@@ -1127,6 +1124,10 @@ video {
   height: 40px;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-\[54px\] {
   height: 54px;
 }
@@ -1229,6 +1230,10 @@ video {
 
 .w-\[26px\] {
   width: 26px;
+}
+
+.w-\[296px\] {
+  width: 296px;
 }
 
 .w-\[30px\] {
@@ -1403,6 +1408,10 @@ video {
 
 .gap-y-6 {
   row-gap: 1.5rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .gap-y-9 {
@@ -1649,6 +1658,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1676,6 +1690,10 @@ video {
 
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+
+.pb-1\.5 {
+  padding-bottom: 0.375rem;
 }
 
 .pb-5 {
@@ -1718,10 +1736,6 @@ video {
   padding-top: 18px;
 }
 
-.pb-1\.5 {
-  padding-bottom: 0.375rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1748,6 +1762,10 @@ video {
 
 .font-Morabbalight {
   font-family: Morabba Light;
+}
+
+.font-Morabbamedium {
+  font-family: Morabba Medium;
 }
 
 .text-2xl {
@@ -1780,6 +1798,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-sm\/7 {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -1793,11 +1816,6 @@ video {
 .text-xs\/\[24px\] {
   font-size: 0.75rem;
   line-height: 24px;
-}
-
-.text-sm\/7 {
-  font-size: 0.875rem;
-  line-height: 1.75rem;
 }
 
 .tracking-normal {
@@ -1988,6 +2006,18 @@ video {
   display: inline-block;
 }
 
+.child\:h-1 > * {
+  height: 0.25rem;
+}
+
+.child\:w-1 > * {
+  width: 0.25rem;
+}
+
+.child\:rounded-full > * {
+  border-radius: 9999px;
+}
+
 .child\:border-b > * {
   border-bottom-width: 1px;
 }
@@ -1995,6 +2025,11 @@ video {
 .child\:border-b-gray-100 > * {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
+
+.child\:bg-zinc-700 > * {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
 }
 
 .child\:py-5 > * {
@@ -2126,6 +2161,11 @@ video {
   border-bottom-color: rgb(255 255 255 / 0.1);
 }
 
+:is(.dark .child\:dark\:bg-gray-400) > * {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 480px) {
   .xs\:aspect-\[2\/1\] {
     aspect-ratio: 2/1;
@@ -2169,10 +2209,6 @@ video {
     width: auto;
   }
 
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2186,6 +2222,16 @@ video {
   .md\:my-20 {
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+
+  .md\:my-28 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .md\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .md\:my-8 {
@@ -2223,6 +2269,10 @@ video {
 
   .md\:mt-2\.5 {
     margin-top: 0.625rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:inline-block {
@@ -2289,6 +2339,10 @@ video {
     height: 30px;
   }
 
+  .md\:h-\[60px\] {
+    height: 60px;
+  }
+
   .md\:h-\[98px\] {
     height: 98px;
   }
@@ -2307,6 +2361,10 @@ video {
 
   .md\:w-6 {
     width: 1.5rem;
+  }
+
+  .md\:w-8 {
+    width: 2rem;
   }
 
   .md\:w-9 {
@@ -2374,6 +2432,10 @@ video {
          column-gap: 65px;
   }
 
+  .md\:border-2 {
+    border-width: 2px;
+  }
+
   .md\:bg-home-desktop {
     background-image: url(../images/headerBgDesktop.webp);
   }
@@ -2424,6 +2486,11 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-3xl\/\[48px\] {
+    font-size: 1.875rem;
+    line-height: 48px;
   }
 
   .md\:text-4xl\/6 {
@@ -2503,8 +2570,16 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
   }
 
   .lg\:gap-x-3 {
@@ -2544,10 +2619,6 @@ video {
 
   .lg\:pt-48 {
     padding-top: 12rem;
-  }
-
-  .lg\:font-Danademibold {
-    font-family: Dana Demibold;
   }
 
   .lg\:text-2xl {
