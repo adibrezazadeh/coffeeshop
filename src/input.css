@@ -167,4 +167,8 @@
     .flex-center{
         @apply flex justify-center items-center
     }
+    .ltr-text{
+        direction: ltr;
+        text-align: left;
+    }
 }
