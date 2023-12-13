@@ -1140,6 +1140,10 @@ html.dark .services::after,
   margin-top: auto;
 }
 
+.mb-\[18px\] {
+  margin-bottom: 18px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1474,12 +1478,24 @@ html.dark .services::after,
   width: 1px;
 }
 
+.w-\[57px\] {
+  width: 57px;
+}
+
 .max-w-\[193px\] {
   max-width: 193px;
 }
 
 .max-w-\[201px\] {
   max-width: 201px;
+}
+
+.max-w-\[660px\] {
+  max-width: 660px;
+}
+
+.max-w-\[606px\] {
+  max-width: 606px;
 }
 
 .flex-shrink {
@@ -1528,6 +1544,11 @@ html.dark .services::after,
 
 .translate-y-2\/4 {
   --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-2\/4 {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2635,6 +2656,11 @@ html.dark .services::after,
   background-color: rgb(255 255 255 / 0.2);
 }
 
+.bg-zinc-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -3046,6 +3072,16 @@ html.dark .services::after,
 .text-xs\/\[24px\] {
   font-size: 0.75rem;
   line-height: 24px;
+}
+
+.text-xl\/\[\] {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xl\/\[48px\] {
+  font-size: 1.25rem;
+  line-height: 48px;
 }
 
 .font-bold {
@@ -3958,6 +3994,10 @@ html.dark .services::after,
     margin-top: 1.5rem;
   }
 
+  .md\:mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+
   .md\:inline-block {
     display: inline-block;
   }
@@ -4137,8 +4177,17 @@ html.dark .services::after,
     padding-right: 0.875rem;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:pb-1 {
     padding-bottom: 0.25rem;
+  }
+
+  .md\:pb-11 {
+    padding-bottom: 2.75rem;
   }
 
   .md\:pb-2 {
@@ -4155,6 +4204,10 @@ html.dark .services::after,
 
   .md\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .md\:pt-\[62px\] {
+    padding-top: 62px;
   }
 
   .md\:font-Dana {
@@ -4229,6 +4282,11 @@ html.dark .services::after,
   .md\:text-xl\/6 {
     font-size: 1.25rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-xl\/\[48px\] {
+    font-size: 1.25rem;
+    line-height: 48px;
   }
 
   .md\:flex-center {
